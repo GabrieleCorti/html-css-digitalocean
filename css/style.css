@@ -48,6 +48,10 @@ input {
     background-color: #f3f5f9;
 }
 
+.pad-60 {
+    padding: 60px 0;
+}
+
 #section-1 {
     padding: 55px 0 25px 0;
 }
@@ -73,12 +77,28 @@ h3 {
     font-size: 16px;
 }
 
-.clame p {
+h4 {
+    color: hsl(221,93%,16%);
+    font-weight: bold;
+}
+
+p {
    font-weight: bold;
+}
+
+.jumbotron p {
+    font-weight: bold;
+    color: gray;
+    opacity: 0.7;
 }
 
 .formmain p {
     font-size: 11px;
+    font-weight: normal;
+}
+
+.deploy p {
+    font-size: 18px;
 }
 
 /*button*/
@@ -166,7 +186,47 @@ h3 {
     background-repeat: no-repeat;
     background-position: 13px 4px;
 }
+
+@media screen and (max-width: 992px){
+    .formmain {
+        margin-top: 25px;
+    }
+}
 /*section-1*/
 .logcontainer img {
     width: 100%;
+}
+/*section-2*/
+.deploy {
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+.infographic {
+    max-width: 800px;
+    margin: auto;
+}
+
+.menu_list li {
+    padding: 15px 20px;
+    border-left: 2px solid lightgray;
+}
+
+.menu_link {
+    color: #b5b5b5;
+}
+
+.menu_contain, .info {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .menu_list {
+        padding-left: 0;
+    }
+
+    .info {
+        margin-top: 20px;
+    }
 }
