@@ -13,7 +13,7 @@ a:hover {
 }
 
 .lh-40 {
-    line-height: 40px;
+    line-height: 55px;
 }
 /*section*/
 /*typo*/
@@ -33,11 +33,28 @@ a:hover {
     border: 1px solid #006aff;
     border-radius: 3px;
     line-height: normal;
+    padding: 6px;
 }
 /*header*/
+/*head top*/
 .head_top {
-    height: 40px;
+    height: 55px;
+}
+.logowrap {
+ height: 40px;
 }
 .logowrap_img {
-    width: 100%;
+   height: 100%;
 }
+
+.navlog li, .navsite li {
+    padding-left: 25px;
+}
+
+.hammenu {
+    font-size: 23px;
+    line-height: 40px;
+    color: #006aff;
+}
+/*jumbotron*/
+
