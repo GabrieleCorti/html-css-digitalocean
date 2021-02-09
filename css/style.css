@@ -1,3 +1,43 @@
+/*all*/
 body {
-    background-color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+a:hover {
+    color: #006aff;
+    text-decoration: none;
+}
+
+.lh-40 {
+    line-height: 40px;
+}
+/*section*/
+/*typo*/
+.navsite__link,
+.navlog__link {
+    color: hsl(221,93%,16%);
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*button*/
+.btn_primary {
+    background-color: transparent;
+    color: #006aff;
+    font-weight: inherit;
+    font-size: inherit;
+    border: 1px solid #006aff;
+    border-radius: 3px;
+    line-height: normal;
+}
+/*header*/
+.head_top {
+    height: 40px;
+}
+.logowrap_img {
+    width: 100%;
 }
