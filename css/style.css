@@ -7,6 +7,10 @@ ul {
     margin-bottom: 0;
 }
 
+a {
+    color: #006aff;
+}
+
 a:hover {
     color: #006aff;
     text-decoration: none;
@@ -14,6 +18,21 @@ a:hover {
 
 .lh-40 {
     line-height: 55px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.mg-10 {
+    margin: 10px 0;
+}
+
+.link_big {
+    font-size: 30px;
+    font-weight: bold;
 }
 /*section*/
 /*typo*/
@@ -24,6 +43,24 @@ a:hover {
     font-size: 14px;
     font-weight: bold;
 }
+.jumbotron h1 {
+    color: white;
+    font-size: 52px;
+}
+
+h2 {
+    color: hsl(221,93%,16%);
+    font-weight: bold;
+}
+
+.clame p {
+   font-weight: bold;
+}
+
+.formmain p {
+    font-size: 11px;
+}
+
 /*button*/
 .btn_primary {
     background-color: transparent;
@@ -34,6 +71,24 @@ a:hover {
     border-radius: 3px;
     line-height: normal;
     padding: 6px;
+}
+
+.btn_secondary {
+    color: white;
+    background-color: #5a84f3;
+    border: none;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.btn_google {
+    border: 0;
+    background-color: transparent;
+    color: #949494;
+    box-shadow: 1px 1px 4px -2px #888888;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 /*header*/
 /*head top*/
@@ -57,4 +112,34 @@ a:hover {
     color: #006aff;
 }
 /*jumbotron*/
+.jumbotron {
+    background-image: url("../img/bg-home-hero-3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clame {
+    padding-top: 30px;
+}
+.formmain {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
 
+.camptxt {
+    border: 1px solid #e5e8ed;
+    padding: 5px 0 5px 4px;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.linkdecorated {
+    text-decoration: underline;
+}
+
+.G_bg {
+    background-image: url("../img/google-icon.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 13px 4px;
+}
