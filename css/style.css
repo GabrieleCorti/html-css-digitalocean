@@ -97,7 +97,7 @@ p {
     font-weight: normal;
 }
 
-.deploy p {
+.intro p {
     font-size: 18px;
 }
 
@@ -197,7 +197,7 @@ p {
     width: 100%;
 }
 /*section-2*/
-.deploy {
+.intro {
     max-width: 900px;
     margin: auto;
     padding-bottom: 45px;
@@ -229,4 +229,27 @@ p {
     .info {
         margin-top: 20px;
     }
+}
+/*section-2*/
+.slideshow {
+    max-width: 900px;
+    margin: auto;
+}
+
+.slideshow_content {
+    width: 70%;
+    margin: auto;
+}
+
+.slideshow__img {
+    width: 100%;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border: 2px solid #006aff;
+    border-radius: 100%;
+    padding: 0;
+    margin: 5px;
 }
