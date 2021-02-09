@@ -239,10 +239,12 @@ p {
 .slideshow_content {
     width: 70%;
     margin: auto;
+    margin-bottom: 30px;
+
 }
 
 .slideshow__img {
-    width: 100%;
+    width: 73%;
 }
 
 .circle {
@@ -253,3 +255,20 @@ p {
     padding: 0;
     margin: 5px;
 }
+
+.chevronmidle {
+    font-size: 30px;
+}
+
+.chevronmidle .right {
+    margin-left: 15px;
+}
+
+.chevronmidle .left {
+    margin-right: 15px;
+}
+
+.slideshow h4 {
+    margin-bottom: 5px;
+}
+
