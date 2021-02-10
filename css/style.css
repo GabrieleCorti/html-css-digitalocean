@@ -67,6 +67,13 @@ input {
     text-transform: capitalize;
     font-size: 14px;
 }
+
+.navchev {
+    font-size: 15px;
+    vertical-align: middle;
+    padding-left: 2px;
+}
+
 .jumbotron h1 {
     color: white;
     font-size: 52px;
@@ -181,12 +188,13 @@ p {
 /*head top*/
 .head_top {
     height: 55px;
+    background-color: white;
 }
 .logowrap {
     height: 40px;
 }
 .logowrap_img {
-   height: 100%;
+   height: 75%;
 }
 
 .navlog li, .navsite li {
@@ -210,7 +218,7 @@ cite {
     background-image: url("../img/bg-home-hero-3.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 80px;
+    padding: 135px 0 80px 0;
 }
 .clame {
     padding-top: 30px;
@@ -248,6 +256,12 @@ cite {
 /*section-1*/
 .logcontainer img {
     width: 100%;
+}
+
+.seeright {
+    padding-left: 10px;
+    position: relative;
+    top: 1px;
 }
 /*section-2*/
 .intro {
@@ -336,7 +350,7 @@ cite {
 
 @media screen and (max-width: 992px){
     .intro {
-        padding: 0 15px 90px 15px;
+        padding: 0 15px 60px 15px;
     }
 }
 /*section-5*/
@@ -402,7 +416,7 @@ cite {
 
 
 .slideshow___logo {
-    padding: 0px 0 20px 0;
+    padding: 0 0 20px 0;
 }
 
 .slide_logo_img {
@@ -419,8 +433,7 @@ cite {
 }
 /*section-7*/
 .btn_wrap {
-    margin: auto;
-    margin-top: 25px;
+    margin: 25px auto auto;
 }
 /*footer*/
 footer {
