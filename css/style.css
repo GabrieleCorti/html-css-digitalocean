@@ -97,12 +97,20 @@ p {
 .formmain p {
     font-size: 11px;
     font-weight: normal;
+    color: #5b6987;
 }
 
 .intro p {
     font-size: 18px;
 }
 
+.bloker {
+    display: block;
+}
+
+.no_img p {
+    font-size: 18px;
+}
 /*button*/
 .btn_primary {
     background-color: transparent;
@@ -152,6 +160,12 @@ p {
     font-size: 23px;
     line-height: 55px;
     color: #006aff;
+}
+
+cite {
+    font-style: normal;
+    font-weight: bold;
+    color: hsl(221,93%,16%)
 }
 /*jumbotron*/
 .jumbotron {
@@ -240,8 +254,7 @@ p {
 
 .slideshow_content {
     width: 70%;
-    margin: auto;
-    margin-bottom: 30px;
+    margin: auto auto 30px;
 
 }
 
@@ -296,7 +309,7 @@ p {
 }
 
 .intro.special {
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .intro.special h2 {
@@ -341,5 +354,35 @@ p {
     .col_2 {
         margin-top: 20px;
     }
+}
+/*section-6*/
+.no_img .slideshow__img  {
+    margin: auto;
+    padding: 50px 0;
+    background-color: white;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.no_img .left, .no_img .right {
+    vertical-align: middle;
+}
+
+
+.slideshow___logo {
+    padding: 0px 0 20px 0;
+}
+
+.slide_logo_img {
+    width: 56%;
+}
+
+.no_img p {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.no_img a {
+    padding-top: 20px;
 }
 
