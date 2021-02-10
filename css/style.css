@@ -272,14 +272,18 @@ p {
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 992px){
-    .intro {
-        padding: 0 15px 45px 15px;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     .slideshow_list {
         margin-top: 80px;
+    }
+
+    .intro {
+        padding: 0 0 90px 0 ;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .intro {
+        padding: 0 15px 90px 15px;
     }
 }
