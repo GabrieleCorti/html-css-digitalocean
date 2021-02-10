@@ -55,6 +55,11 @@ input {
 #section-1 {
     padding: 55px 0 25px 0;
 }
+
+#section-5, #section-7 {
+    background: rgb(0,92,255);
+    background: linear-gradient(180deg, rgba(0,92,255,1) 0%, rgba(0,34,157,1) 92%, rgba(9,9,121,1) 100%);
+}
 /*typo*/
 .navsite__link,
 .navlog__link {
@@ -89,7 +94,7 @@ p {
 }
 
 .jumbotron p {
-    font-weight: bold;
+    font-weight: normal;
     color: white;
     opacity: 0.6;
 }
@@ -139,6 +144,14 @@ p {
     box-shadow: 1px 1px 4px -2px #888888;
     padding-top: 4px;
     padding-bottom: 4px;
+}
+
+.full {
+    border: none;
+    background-color: white;
+    color: #006aff;
+    padding: 10px;
+    font-weight: bold;
 }
 /*header*/
 /*head top*/
@@ -303,11 +316,6 @@ cite {
     }
 }
 /*section-5*/
-#section-5 {
-    background: rgb(0,92,255);
-    background: linear-gradient(180deg, rgba(0,92,255,1) 0%, rgba(0,34,157,1) 92%, rgba(9,9,121,1) 100%);
-}
-
 .intro.special {
     padding-bottom: 0;
 }
@@ -385,4 +393,8 @@ cite {
 .no_img a {
     padding-top: 20px;
 }
-
+/*section-7*/
+.btn_wrap {
+    margin: auto;
+    margin-top: 25px;
+}
