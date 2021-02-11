@@ -253,6 +253,12 @@ cite {
     background-position: 13px 4px;
 }
 
+@media screen and (max-width: 1200px) {
+    .jumbotron {
+        padding-top: 95px;
+    }
+}
+
 @media screen and (max-width: 991px){
     .formmain {
         margin-top: 25px;
