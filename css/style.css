@@ -519,3 +519,8 @@ footer {
 .text, .square {
     border-radius: 6px;
 }
+
+.help_bubble {
+    color: hsl(221,93%,16%);
+    font-weight: bold;
+}
