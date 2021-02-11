@@ -147,6 +147,11 @@ p {
     font-weight: normal;
     text-transform: capitalize;
 }
+
+.help_bubble {
+    color: hsl(221,93%,16%);
+    font-weight: bold;
+}
 /*button*/
 .btn_primary {
     background-color: transparent;
@@ -401,6 +406,16 @@ cite {
         margin-top: 20px;
     }
 }
+
+@media screen and (min-width: 420px) and (max-width: 480px){
+    .infospeed_city {
+        width: 42%;
+    }
+
+    .infospeed_link {
+        width: 24%;
+    }
+}
 /*section-6*/
 .no_img .slideshow__img  {
     margin: auto;
@@ -495,7 +510,7 @@ footer {
 .triangolo {
     width: 0;
     height: 0;
-    line-height: 0px;
+    line-height: 0;
     border-top: 8px solid white;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
@@ -518,9 +533,4 @@ footer {
 
 .text, .square {
     border-radius: 6px;
-}
-
-.help_bubble {
-    color: hsl(221,93%,16%);
-    font-weight: bold;
 }
